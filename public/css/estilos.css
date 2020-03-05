@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+   background: #d6d6d6;
+}
+.container {
+    max-width: 1000px;
+    width: 100%;
+    height: auto;
+    background: white;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    box-shadow: 0 0 8px gray;
+}
+
+.menu {
+    margin-top: 15px;
+    list-style: none;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background: #95ca3e;
+  
+}
+
+.menu li a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: regular;
+}
+.menu li a:hover{
+    color: gray;
+}
+
+.informacion {
+    
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+    
+}
+
+.foto{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.texto {
+    width: 55%;
+    text-align: justify;
+    border: 0.3px solid rgb(158, 182, 170);
+    padding: 20px;
+    color: #4D685A;
+    background: white;
+    margin-left: 20px;
+}
+
+.texto h2 {
+    padding-bottom: 20px;
+    color: #4D685A;
+}
+
+#nombrePrincipal{
+    color: #12664F;
+}
+
+span {
+    font-size: 20px;
+    font-weight: lighter;
+    color: #4D685A;
+}
+
+.foto img {
+    max-width: 80%;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 0 3px gray;
+}
+
+.texto ul{
+    padding-left: 20px;
+}
+
+.texto-2 {
+    width: 35%;
+    text-align: justify;
+    border: 0.3px solid rgb(158, 182, 170);
+    padding: 20px;
+    color: #4D685A;
+    background: white;
+    
+}
+
+.texto-2 h2 {
+    padding-bottom: 20px;
+    color: #4D685A;
+    text-align: center;
+}
+
+#usuario, #asunto, #mensaje {
+    width: 100%;
+    border: none;
+    background: #f0f0f0;
+    padding: 8px;
+    font-weight: lighter;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+button{
+    width: 100%;
+    background: rgb(75, 219, 18);
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+.caja{
+    width: 40%;
+    padding: 50px;
+    background: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 40px auto;
+    box-shadow: 0 0 3px gray;
+}
+
+.imagenform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.caja .imagenform img{
+    max-width: 30%;
+}
+
+
